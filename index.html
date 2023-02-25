@@ -1,46 +1,127 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>第一个上线的网页</title>
-    <style>  
-      body {
-        margin: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <div style="
-      background-color: #f1f1f1;
-      text-align: center;
-      padding:40px;
+<html lang="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="width:900px;height:1200px;background-color:antiquewhite">
+    <div style="text-align: center;
+    color: rgb(148, 88, 88);
+    font-size:large;
     ">
-      <img src="https://i.328888.xyz/2023/02/20/gZyUF.jpeg"  border="3"  alt="努力赚钱" width="80px" heigth="80px">
-    </div>
-    <div style="
-      max-width: 700px;
-      margin: 30px auto;
-      padding: 15px;
-      line_height: 1.7;
-      color: black;
+    <!--下面图片标签引用的图片在同一个文件夹之下，所以是相对路径-->
+    <img src='微信图片_20221120211823.jpg' alt="photo" width="80px" height="80px">
+    <h1 style="text-align: center;
+    max-width: 900px;
+    margin: 15px auto;   
+    border: 15px;   
+    padding: 15px;
+    line-height:1.7;
+    background-color: burlywood;
+    text-align: center;
     ">
-      <p>欢迎来到这个示范网页<p/>
-      <p>这是第一行<p/>
-      <p>这是第二行<p/>
-      <p>这是第三行<p/>
-      <p>这是第四行<p/>
-      <p>这是第五行<p/>
-      <p>这是第六行<p/>
+        天空之城
+    </h1>
+    <p>
+        你好，这是你能看到的我的第一
+        <!--这是一个换行标签--><br><font size="2" style=" color:rgb(23, 18, 12)">在这里换了一行，但是没有分段</font>
+        <br>个网页，实际上很简单的一个网页，里面还没有添加什么东西进去
+    </p>
     </div>
-    <div style="
-      background-color: #f1f1f1;
-      text-align: center;
-      padding:40px;
-      font-size: 12px;
+    <div style="width: 100px;height:1050px; float:left;background-color:rgb(237, 186, 77)">
+        
+    </div>
+    <div style="width: 800px; float:right;background-color:rgb(198, 184, 166)">
+        <div style='
+        max-width: 650px;
+        height: 150px;
+        margin:15px auto;
+        line-height: 1.8;
+        background-color: rgb(217, 206, 206);
+        text-align: center;
+        text-size-adjust: 30px;
+
+        '>
+        <h1 style="
+        color: red;
+        font-size: 25px;
+        text-align: center;
+        ">
+            对齐方式：<i>居中</i>
+        </h1>
+        <p>这里稍微填一点东西，用来使得空间看起来不那么单调</p>
+        <p 
+        style="text-align: left;
+        color:aqua;
+        ">
+            这里稍微填一点东西，用来使得空间看起来不那么单调<a href="http:baidu.com"
+            style="
+            color:rgb(158, 20, 20)
+            ">
+            <strong >可以点这里</strong></a>
+        </p>
+
+    </div>
+    <!--下面这个盒子没什么格式，看起来不怎么好看-->
+    <div>
+        <!--这下面的标签有三个，分别演示了三种不同情况下的引用-->
+        <a id="https://www.runoob.com/html/html-links.html#tips">这是一个有用的标签，但是用户点击没用，也看不到 </a>
+        <!--这里换了个行，顺便加粗了一下-->
+        <!--另外，下面的这个标签回访问自己的地址，在新窗口把自己重新打开一遍-->
+        <br><b><a href="">访问有用的提示部分</a></b>
+        <!--这下面的引用就是正常的引用啦，用户点击就可以访问双引号里面的网站哦-->
+        <a href="https://www.runoob.com/html/html-links.html#tips">这里可以访问到标签的用法</a>
+    </div>
+    <div
+    style="
+    text-align:left;
+    max-width: 600px;
+    height: 350px;
+    margin:15px auto;
+    line-height: 1.8;
+    "
+    >
+        <li>作为第一行好了</li>
+        <li>再来个第二行</li>
+        <li>第三行</li>
+        <li text-align: center>第四行来个公式吧：<pre>a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup></pre></li>
+        <p>或者换种格式<pre style="text-align:center;font-size: 25px;">a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup></pre></p>
+
+    </div>
+    <div 
+    style="
+    text-align:left;
+    max-width: 600px;
+    height: 350px;
+    margin:15px auto;
+    line-height: 1.8;
     ">
-      <p>我的网站<p/>
-      <a href="https://kangwenchang.com/"> 友情链接-康老师 <a/>  
+    <p>再试一下删除符号,如下</p>
+    <del>删除</del>
     </div>
-  </body>
+    </div>
+    <div 
+    style="
+    max-width: 700px;
+    max-height: 8000px;
+    margin:15px auto;
+    line-height: 1.8;
+    background-color: #efeeee;
+    text-align: center;
+    color:azure;
+    ">
+
+    <a href="https://kangwenchang.com" style="
+    text-align: center;
+    ">
+        <!--这里画一条线稍微隔开一下,长度稍微写个值，颜色黑色好了，然后宽度为1吧-->
+        <hr width="750" size="1" color="black">
+        <p>康文昌</p> 
+    </a>
+    </div>
+</body>
+
 </html>
